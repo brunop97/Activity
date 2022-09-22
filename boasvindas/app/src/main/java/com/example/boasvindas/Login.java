@@ -1,11 +1,11 @@
 package com.example.boasvindas;
 
+import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
-import androidx.appcompat.app.AppCompatActivity;
 
 public class Login extends AppCompatActivity {
 
@@ -28,7 +28,7 @@ public class Login extends AppCompatActivity {
             Intent telaLoginOK = new Intent(this, LoginOK.class);
             startActivity(telaLoginOK);
         } else {
-            Intent telaLoginError = new Intent(this, LoginError.class);
+            Intent telaLoginError = new Intent(this, LoginErro.class);
             startActivity(telaLoginError);
         }
 

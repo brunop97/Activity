@@ -1,11 +1,11 @@
 package com.example.boasvindas;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.content.Intent;
 import android.os.Bundle;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-    public class Sobre extends AppCompatActivity {
+public class Sobre extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
