@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="25dp"
         android:layout_marginEnd="25dp"
-        android:text="Erro no Cadastro. Os campos campo1 e campo2 devem ser preenchidos."
+        android:hint="Erro no Cadastro. Os campos campo1 e campo2 devem ser preenchidos."
         android:textAlignment="center"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"

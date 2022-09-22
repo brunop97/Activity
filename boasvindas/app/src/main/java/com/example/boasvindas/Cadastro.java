@@ -34,6 +34,12 @@ public class Cadastro extends AppCompatActivity {
                 cepString.equals("")  || complementoString.equals("") || emailString.equals("") ){
 
             Intent telaCadastroErro = new Intent(this, CadastroErro.class);
+            telaCadastroErro.putExtra("nomeDigitado", nomeString);
+            telaCadastroErro.putExtra("enderecoDigitado", enderecoString);
+            telaCadastroErro.putExtra("numeroDigitado", numeroString);
+            telaCadastroErro.putExtra("cepDigitado", cepString);
+            telaCadastroErro.putExtra("complementoDigitado", complementoString);
+            telaCadastroErro.putExtra("emailDigitado", emailString);
             startActivity(telaCadastroErro);
         } else {
             Intent telaCadastroOK = new Intent(this, CadastroOK.class);
