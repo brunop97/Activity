@@ -12,12 +12,11 @@ public class LoginOK extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login_ok);
-
-        Intent telaLoginOK = getIntent();
     }
 
     public  void botaoSobre (View v) {
         Intent telaSobre = new Intent(this, Sobre.class);
         startActivity(telaSobre);
     }
+
 }

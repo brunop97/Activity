@@ -13,8 +13,6 @@ public class Login extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-
-        Intent telaLogin = getIntent();
     }
 
     public void botaoLogin(View v) {
@@ -24,7 +22,7 @@ public class Login extends AppCompatActivity {
         EditText senhaDigitada = (EditText) findViewById(R.id.editTextNumberPassword);
         String senhaString = senhaDigitada.getText().toString();
 
-        if ((emailString == "bruno.peroni@acad.ftec.com.br") && (senhaString == "123456")) {
+        if(emailString.equals("bruno.peroni@acad.ftec.com.br") && senhaString.equals("123456")){
             Intent telaLoginOK = new Intent(this, LoginOK.class);
             startActivity(telaLoginOK);
         } else {
@@ -33,4 +31,5 @@ public class Login extends AppCompatActivity {
         }
 
     }
+
 }
