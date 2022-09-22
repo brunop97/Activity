@@ -15,31 +15,12 @@ public class CadastroOK extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cadastro_ok);
 
-        Intent telaCadastroOK = getIntent();
-        String nome = telaCadastroOK.getStringExtra("nomeDigitado");
-
         TextView textCadastroOK = (TextView) findViewById(R.id.textCadastroOK);
 
+        Intent telaCadastroOK = getIntent();
+        String nome = telaCadastroOK.getStringExtra("nomeDigitado");
+        textCadastroOK.setText("Ola " + nome + "! Cadastro realizado com sucesso.");
 
-
-        /*
-        TextView textResultado = (TextView) findViewById(R.id.textResultado);
-
-        Intent telaNumero = getIntent();
-        double numero = telaNumero.getDoubleExtra("numeroDigitado", 0);
-
-        if(numero % 2 == 0){
-            textResultado.setText("O Número é PAR");
-            textResultado.setTextColor(Color.parseColor("#0000FF"));
-            textResultado.setTextSize(20);
-        }else{
-            textResultado.setText("O Número é IMPAR");
-            textResultado.setTextColor(Color.parseColor("#FF0000"));
-            textResultado.setTextSize(30);
-        }
-        //android:text="Ola NOME. Cadastro realizado com sucesso."
-
-        */
     }
 
     public  void botaoSobre (View v) {

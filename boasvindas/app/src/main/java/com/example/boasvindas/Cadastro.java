@@ -37,7 +37,7 @@ public class Cadastro extends AppCompatActivity {
             startActivity(telaCadastroErro);
         } else {
             Intent telaCadastroOK = new Intent(this, CadastroOK.class);
-            //getIntent().putExtra("nomeDigitado",nomeString);
+            telaCadastroOK.putExtra("nomeDigitado",nomeString);
             startActivity(telaCadastroOK);
         }
 
