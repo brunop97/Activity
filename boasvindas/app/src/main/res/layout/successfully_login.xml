@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".LoginOK">
 
     <TextView
         android:id="@+id/textView2"
@@ -21,6 +22,7 @@
         android:id="@+id/sobre2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="botaoSobre"
         android:text="Sobre"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
