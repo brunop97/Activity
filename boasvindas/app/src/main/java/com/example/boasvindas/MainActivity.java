@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public  void botaoLoginOnClick (View v) {
-        Intent telaLogin = new Intent(getApplicationContext(), Login.class);
+        Intent telaLogin = new Intent(this, Login.class);
         startActivity(telaLogin);
     }
 
