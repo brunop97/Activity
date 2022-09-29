@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Bruno/AndroidStudioProjects/boasvindas/app/src/main/res/layout/activity_login.xml" value="0.303125" />
+        <entry key="..\:/Users/Bruno/AndroidStudioProjects/boasvindas/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Bruno/AndroidStudioProjects/boasvindas/app/src/main/res/layout/cadastro.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Bruno/AndroidStudioProjects/boasvindas/app/src/main/res/layout/error_cadastro.xml" value="0.33" />
+        <entry key="..\:/Users/Bruno/AndroidStudioProjects/boasvindas/app/src/main/res/layout/error_login.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Bruno/AndroidStudioProjects/boasvindas/app/src/main/res/layout/sobre.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Bruno/AndroidStudioProjects/boasvindas/app/src/main/res/layout/successfully_cadastro.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Bruno/AndroidStudioProjects/boasvindas/app/src/main/res/layout/successfully_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Bruno/Documents/GitHub/Activity/boasvindas/app/src/main/res/layout/activity_cadastro.xml" value="0.36102564102564105" />
+        <entry key="..\:/Users/Bruno/Documents/GitHub/Activity/boasvindas/app/src/main/res/layout/activity_login.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Bruno/Documents/GitHub/Activity/boasvindas/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Bruno/Documents/GitHub/Activity/boasvindas/app/src/main/res/layout/successfully_login.xml" value="0.36102564102564105" />
+        <entry key="..\:/Users/bpero/Documents/GitHub/Activity/boasvindas/app/src/main/res/layout/activity_cadastro.xml" value="0.35833333333333334" />
+        <entry key="..\:/Users/bpero/Documents/GitHub/Activity/boasvindas/app/src/main/res/layout/activity_cadastro2.xml" value="0.34427083333333336" />
+        <entry key="..\:/Users/bpero/Documents/GitHub/Activity/boasvindas/app/src/main/res/layout/activity_cadastro_erro.xml" value="0.3484375" />
+        <entry key="..\:/Users/bpero/Documents/GitHub/Activity/boasvindas/app/src/main/res/layout/activity_cadastro_ok.xml" value="0.3625" />
+        <entry key="..\:/Users/bpero/Documents/GitHub/Activity/boasvindas/app/src/main/res/layout/activity_login.xml" value="0.35833333333333334" />
+        <entry key="..\:/Users/bpero/Documents/GitHub/Activity/boasvindas/app/src/main/res/layout/activity_login2.xml" value="0.34427083333333336" />
+        <entry key="..\:/Users/bpero/Documents/GitHub/Activity/boasvindas/app/src/main/res/layout/activity_login_erro.xml" value="0.34427083333333336" />
+        <entry key="..\:/Users/bpero/Documents/GitHub/Activity/boasvindas/app/src/main/res/layout/activity_login_ok.xml" value="0.2983425414364641" />
+        <entry key="..\:/Users/bpero/Documents/GitHub/Activity/boasvindas/app/src/main/res/layout/activity_main.xml" value="0.3625" />
+        <entry key="..\:/Users/bpero/Documents/GitHub/Activity/boasvindas/app/src/main/res/layout/activity_sobre.xml" value="0.35833333333333334" />
+        <entry key="..\:/Users/bpero/Documents/GitHub/Activity/boasvindas/app/src/main/res/layout/activity_sobre2.xml" value="0.35833333333333334" />
+        <entry key="..\:/Users/bpero/Documents/GitHub/Activity/boasvindas/app/src/main/res/layout/error_cadastro.xml" value="0.35833333333333334" />
+        <entry key="..\:/Users/bpero/Documents/GitHub/Activity/boasvindas/app/src/main/res/layout/error_login.xml" value="0.35833333333333334" />
+        <entry key="..\:/Users/bpero/Documents/GitHub/Activity/boasvindas/app/src/main/res/layout/successfully_cadastro.xml" value="0.3625" />
+        <entry key="..\:/Users/bpero/Documents/GitHub/Activity/boasvindas/app/src/main/res/layout/successfully_login.xml" value="0.35833333333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
